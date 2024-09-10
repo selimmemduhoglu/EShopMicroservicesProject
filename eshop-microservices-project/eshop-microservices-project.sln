@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{38907B85-8E23-4307-AB33-C257F79C9CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{893CAEC1-2772-4A9C-9073-0DCD203FDE7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{893CAEC1-2772-4A9C-9073-0DCD203FDE7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{BBACD1FB-E00B-455D-982C-E8198DE1B6B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{A07E617A-BC68-42E9-BD6B-6818826E6273}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{893CAEC1-2772-4A9C-9073-0DCD203FDE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893CAEC1-2772-4A9C-9073-0DCD203FDE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893CAEC1-2772-4A9C-9073-0DCD203FDE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07E617A-BC68-42E9-BD6B-6818826E6273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07E617A-BC68-42E9-BD6B-6818826E6273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07E617A-BC68-42E9-BD6B-6818826E6273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07E617A-BC68-42E9-BD6B-6818826E6273}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{38907B85-8E23-4307-AB33-C257F79C9CBF} = {0D458FA7-E633-49C9-B2D2-DA47288730CB}
 		{893CAEC1-2772-4A9C-9073-0DCD203FDE7B} = {38907B85-8E23-4307-AB33-C257F79C9CBF}
+		{A07E617A-BC68-42E9-BD6B-6818826E6273} = {BBACD1FB-E00B-455D-982C-E8198DE1B6B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C1275BC-B575-466D-9CBD-4091CBECA864}
